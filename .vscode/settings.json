@@ -1,0 +1,62 @@
+{
+    "STM32_TARGET": "STM32F767ZIT6_ADC_W_DMA",
+    "STM32_FAMILY_OCD": "stm32f7x",
+    "STM32_SVD": "STM32F767.svd",
+
+    "cortex-debug.openocdPath": "C:\\Program Files (x86)\\OpenOCD-20240916-0.12.0\\bin\\OPENOCD.EXE",
+
+    "editor.guides.indentation": false,
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "$(close) Wyczyść Flash",
+            "task": "Wyczyść Flash",
+            "tooltip": "🔧 Wyczyść procesor."
+        },
+        {
+            "label": "$(chip) Addr2line",
+            "task": "Addr2line",
+            "tooltip": "🔧 Addr2line"
+        },
+        {
+            "label": "$(zap) Kompiluj Debug",
+            "task": "Buduj Debug",
+            "tooltip": "🔧 Kompiluj program dla procesora."
+        },
+        {
+            "label": "$(zap) Kompiluj Release",
+            "task": "Buduj Release",
+            "tooltip": "🔧 Kompiluj program dla procesora."
+        },
+        {
+            "label": "$(chip) Wgraj Debug",
+            "task": "Wgraj Debug",
+            "tooltip": "🔧 Wgraj wsad do procesora."
+        },
+
+        {
+            "label": "$(chip) Wgraj Release",
+            "task": "Wgraj Release",
+            "tooltip": "🔧 Wgraj wsad do procesora."
+        },
+    ],
+    "workbench.colorCustomizations": 
+        {
+            "statusBar.debuggingBackground": "#345a08",
+            "statusBar.debuggingForeground": "#ffffff"
+        },
+    "cortex-debug.variableUseNaturalFormat": true,
+    "editor.inlineSuggest.enabled": false,
+    "files.associations": {
+        "zegar.h": "c",
+        "main.h": "c",
+        "gpio.h": "c",
+        "przerwania.h": "c",
+        "adc.h": "c",
+        "i2c.h": "c",
+        "oled.h": "c",
+        "math.h": "c",
+        "stdint.h": "c"
+    }
+}

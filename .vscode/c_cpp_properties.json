@@ -1,0 +1,22 @@
+ {
+    "configurations": [
+      {
+        "name": "STM32F767ZIT6",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "${workspaceFolder}/System/CMSIS/Include",
+          "${workspaceFolder}/System/CMSIS/Device/ST/STM32F7xx/Include",
+          "${workspaceFolder}/Include",
+          "${workspaceFolder}/System"
+        ],
+        "defines": [
+          "STM32F767xx"
+        ],
+        "compilerPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "gcc-arm"
+      }
+    ],
+    "version": 4
+ }
